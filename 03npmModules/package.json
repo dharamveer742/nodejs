@@ -1,0 +1,42 @@
+{
+
+  "_comment": "npm reads this file to know what packages it needs to install for our project and this file stay with our repository if we push it on github and we wouldn't send our packages",
+
+  "name": "03day",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "node index",
+
+    "dev": "nodemon index",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "date-fns": "^2.29.3",
+
+    "uuid": "^9.0.0"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^2.0.20"
+
+  }
+
+}
+
