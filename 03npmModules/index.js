@@ -7,7 +7,7 @@ This means that you do not have to stop and restart your applications in order f
 
 // npm init -y :- to skip the questions
 // npm i date-fns
-// npm install (when clone any  reposiratory):- reads the package.json file and installs the node node modules which are needed to run that appliaction
+// npm install (when clone any  reposiratory):- reads the package.json file and installs the  node modules which are needed to run that appliaction
 
 const {format} = require('date-fns');
 console.log(format(new Date(),'yyyyMMdd\tHH:mm:ss'));
