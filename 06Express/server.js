@@ -24,9 +24,28 @@ app.get("/change(.html)?",(req,res,next)=>{
 },(req,res)=>{
     res.send("Hello World");
 })
+
+// chaining route handlers 
+const one = function(req,res,next){
+    console.log("one");
+    next();
+ }
+ const two = function(req,res,next){
+    console.log("two");
+    next();
+ }
+ const three = function(req,res){
+    console.log("three");
+    res.send("routes finished");
+ }
+
+ app.get("/hello(.html)?",[one,two,three]);
+
 app.get("/*",(req,res)=>{  // / and else anything 
     res.status(404).sendFile(path.join(__dirname,"views","404.html"));  // express will find the file and send 200 instead of 404
 })
 app.listen(port,()=>{
     console.log(`Server running on port ${port}`)
 });
+
+
