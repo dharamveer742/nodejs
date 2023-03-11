@@ -1,0 +1,6 @@
+20230310	22:03:41	63ef493b-96fc-4e36-b6d6-35303b309d60	TokenExpiredError: jwt expired
+20230311	11:36:01	d2df48b8-d43b-40e0-8695-2cf2122fd449	TokenExpiredError: jwt expired
+20230311	13:08:04	4bbeef67-7c04-419d-a150-d5bee129c566	TypeError: Cannot read properties of undefined (reading 'split')
+20230311	13:08:06	f898000a-10cf-4100-adb0-18320229bce8	TypeError: Cannot read properties of undefined (reading 'split')
+20230311	13:08:20	d677c41e-65b9-435e-a64d-4cb85fd6a259	TypeError: Cannot read properties of undefined (reading 'split')
+20230311	16:18:38	d1d5f986-e25f-4134-b384-429adcd50659	TypeError: res.sendstatus is not a function
