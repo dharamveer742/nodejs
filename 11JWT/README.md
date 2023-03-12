@@ -6,4 +6,4 @@ json wen token : jwt consists of access token and refresh token
 I used httpOnly cookie to store access token bcz httpOnly cookie are not accessible by js so they are more secure 
 
 
-npm packages used :- cookie-parser,jsonwebtoken,dotenv
+npm packages used :- cookie-parser,jsonwebtoken,dotenv,bcrypt
