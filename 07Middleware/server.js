@@ -49,7 +49,7 @@ app.get('/old-page(.html)?', (req, res) => {
     res.redirect(301, '/new-page.html'); //302 by default
 });
 
-// Route handlers
+// Route handlers 
 app.get('/hello(.html)?', (req, res, next) => {
     console.log('attempted to load hello.html');
     next()
